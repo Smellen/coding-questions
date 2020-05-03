@@ -5,7 +5,7 @@ def is_unique(word):
         if letter not in found:
             found.append(letter)
         else:
-            print('The letter ' + letter + ' is not unique.')
+            print('The letter ' + letter + ' has already appeared.')
             return
 
     print('The word \'' + word + '\' is unique')
