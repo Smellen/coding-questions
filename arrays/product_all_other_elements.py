@@ -1,6 +1,5 @@
-def divide(product, value):
-    return product/value
-
+# [1,2,3] should return [6,3,2]
+# 
 def product_all_other_elements(values):
     print('Getting the product of all other elements.')
     print(values)
